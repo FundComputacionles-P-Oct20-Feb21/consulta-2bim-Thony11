@@ -1,0 +1,26 @@
+1. AdivinaNumero: Sencillo juego en el que el usuario debe adivinar un número
+aleatorio.
+
+// Juego simple que pide al usuario que adivine un numero en 10 intentos
+
+1. Proceso Adivina_Numero
+2. intentos<-9;
+3. num_secreto <- azar(100)+1;
+4. Escribir "Adivine el número (de 1 a 100):";
+5. Leer num_ingresado;
+6. Mientras num_secreto<>num_ingresado Y intentos>0 Hacer
+7. Si num_secreto>num_ingresado Entonces
+8. Escribir "Muy bajo";
+9. Sino
+10. Escribir "Muy alto";
+11. FinSi
+12. Escribir "Le quedan ",intentos," intentos:";
+13. Leer num_ingresado;
+14. intentos <- intentos-1;
+15. FinMientras
+16. Si intentos=0 Entonces
+17. Escribir "El numero era: ",num_secreto;
+18. Sino
+19. Escribir "Exacto! Usted adivinó en ",11-intentos," intentos.";
+20. FinSi
+21. FinProceso

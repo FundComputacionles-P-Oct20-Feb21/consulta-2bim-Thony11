@@ -1,0 +1,14 @@
+5. Sumar n números utilizando MIENTRAS
+
+//Suma de n números : RPC
+1. Proceso suma_n_numeros 
+2. Escribir "Ingrese un Número (0 para Calcular)";
+3. Leer a;
+4. tot<-0
+5. Mientras a<>0 Hacer
+6. tot<-tot+a;
+7. Escribir "Ingrese otro Numero (0 para Calcular)";
+8. Leer a;
+9. FinMientras
+10. Escribir "Total: ",tot;
+11. FinProceso

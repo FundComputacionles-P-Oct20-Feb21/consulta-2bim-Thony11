@@ -1,0 +1,32 @@
+2. Mayores: Busca los dos mayores de una lista de N datos.
+
+// Busca los dos mayores de una lista de N datos
+
+1. Proceso Mayores
+2. Dimension datos[200];
+3. Escribir "Ingrese la cantidad de datos:";
+4. Leer n;
+5. Para i<-1 Hasta n Hacer
+6. Escribir "Ingrese el dato ",i,":";
+7. Leer datos[i];
+8. FinPara
+10. Si datos[1]>datos[2] Entonces
+11. may1<-datos[1];
+12. may2<-datos[2];
+13. Sino
+14. may1<-datos[2];
+15. may2<-datos[1];
+16. FinSi
+17. Para i<-3 Hasta n Hacer
+18. Si datos[i]>may1 Entonces
+19. may2<-may1;
+20. may1<-datos[i];
+21. Sino
+22. Si datos[i]>may2 Entonces
+23. may2<-datos[i];
+24. FinSi
+25. FinSi
+26. FinPara
+27. Escribir "El mayor es: ",may1;
+28. Escribir "El segundo mayor es: ",may2;
+29. FinProceso

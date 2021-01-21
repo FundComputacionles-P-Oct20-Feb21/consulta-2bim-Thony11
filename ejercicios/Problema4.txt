@@ -1,0 +1,12 @@
+4. Escribir un el incremento en 1 de un nº menor a 10 hasta 10
+//Escribir el incremento en 1 de un número menor a 10 hasta 10: RPC 
+
+1. Proceso sin_titulo
+2. escribir "Digita un numero"; //Muestra en pantalla la instrucción
+3. leer a; //ingresa la variable 'a' (número menor a 10)
+4. Para a<-a+1 Hasta 10 Con Paso 1 Hacer //Comando Para: está al
+5. final derecha de este IDE
+6. escribir " ", a; //El espacio entre comillas ("") solo ajusta el
+7. texto debajo de la variable ingresada
+8. FinPara //Fin del comando Para
+9. FinProceso //Fin del proceso
